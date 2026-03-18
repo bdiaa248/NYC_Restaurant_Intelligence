@@ -9,22 +9,22 @@
 </div>
 
 
-## 📋 Overview
+## Overview
 The **NYC Restaurant Intelligence** project is a robust data engineering and analytics pipeline that extracts, processes, and analyzes restaurant inspection data from NYC Open Data. It bridges raw data with business strategy by identifying health violation hotspots, risky cuisine types, and the correlation between restaurant price levels and health standards through advanced spatial intelligence.
 
-## ✨ Key Features
+## Key Features
 - **Automated ETL Pipeline**: Dynamically extracts thousands of records from the NYC Open Data API using efficient, paginated requests.
 - **Robust Storage**: Transforms raw JSON data into structured Pandas DataFrames and loads it into a local SQLite database for fast, complex querying.
 - **Geospatial Intelligence**: Leverages GeoPandas to map spatial point data against NYC zip code shapefiles, identifying geographical clusters of high-risk restaurants.
 - **Statistical EDA**: Uncovers insights such as the Top 10 Riskiest Cuisines and the relationship between price levels and health inspection scores.
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Languages**: Python, SQL
 - **Data Engineering**: Pandas, Requests, SQLAlchemy, SQLite
 - **Geospatial & Visualization**: GeoPandas, Matplotlib, Seaborn, Folium
 - **Environment**: Jupyter Notebook, `python-dotenv`
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -53,7 +53,7 @@ jupyter notebook notebooks/01_etl_and_eda.ipynb
 
 *Note: Ensure you download the NY Zipcode shapefiles into the `data/spatial/` directory before running the geospatial analysis cells.*
 
-## 📊 Insights & Visualizations
+## Insights & Visualizations
 
 ### 1. Price vs. Cleanliness
 Visualizing how average health scores vary across different price points ($ to $$$$$). *Note: Lower score indicates fewer violations (cleaner).*
