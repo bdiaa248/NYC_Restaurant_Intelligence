@@ -54,10 +54,31 @@ jupyter notebook notebooks/01_etl_and_eda.ipynb
 *Note: Ensure you download the NY Zipcode shapefiles into the `data/spatial/` directory before running the geospatial analysis cells.*
 
 ## 📊 Insights & Visualizations
-The analysis provides critical insights including:
-- **Price vs. Cleanliness**: Visualizing how average health scores vary across different price points ($ to $$$$$).
-- **Cuisine Risk Factors**: Identifying the cuisine types with the highest average violation scores.
-- **Hotspot Mapping**: Layering the most hazardous restaurants over the NYC basemap to pinpoint geographic clusters.
+
+### 1. Price vs. Cleanliness
+Visualizing how average health scores vary across different price points ($ to $$$$$). *Note: Lower score indicates fewer violations (cleaner).*
+
+<div align="center">
+<img src="imgs/price_level_analysis.png" alt="Price Level Analysis" width="800">
+</div>
+
+### 2. Cuisine Risk Factors
+Identifying the cuisine types with the highest average violation scores in NYC.
+
+<div align="center">
+<img src="imgs/riskiest_cuisines.png" alt="Riskiest Cuisines" width="800">
+</div>
+
+### 3. Hotspot Mapping & Spatial Clustering
+Layering the most hazardous restaurants over the NYC basemap to pinpoint geographic clusters.
+
+<div align="center">
+<img src="imgs/nyc_zipcode_map.png" alt="NYC Zipcode Map" width="800">
+</div>
+<br>
+<div align="center">
+<img src="imgs/cuisine_cluster_map.png" alt="Cuisine Clusters Map" width="800">
+</div>
 
 ---
 <div align="center">
