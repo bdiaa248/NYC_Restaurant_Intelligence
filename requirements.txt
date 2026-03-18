@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+folium
+geopandas
+sqlalchemy
+ipykernel
+python-dotenv
+requests
+sqlite3
+lxml
